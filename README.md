@@ -6,8 +6,8 @@ This is the code for the manuscript [Temporal Question Reasoning for Question An
 
 Clone and create a conda environment
 ``` 
-git clone git@github.com:apoorvumang/CronKGQA.git
-cd CronKGQA
+git clone https://github.com/cmavro/TempoQR.git
+cd TempoQR
 conda create --prefix ./tempoqr_env python=3.7
 conda activate ./tempoqr_env
 ```
