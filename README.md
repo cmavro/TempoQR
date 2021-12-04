@@ -1,6 +1,5 @@
 # TempoQR
-This is the code for the manuscript [Temporal Question Reasoning for Question Answering over Temporal Knowledge Graphs](https://drive.google.com/file/d/1-dOQa0B_vm9bMoO4uuFjCabgoxAH7waK/view?usp=sharing).
-
+This is the code for the manuscript "TempoQR: Temporal Question Reasoning over Knowledge Graphs" (AAAI2022).
 
 ## Installation
 
@@ -50,4 +49,6 @@ To use a corrupted TKG change to "--tkg_file train_corXX.txt" and "--tkbc_model_
 To evaluate on unseen complex questions change to "--test test_bef_and_aft" or "--test test_fir_las_bef_aft".
 
 Please explore more argument options in train_qa_model.py.
+
+Minor Note: Not all modules have been tested after the code merging.
 
