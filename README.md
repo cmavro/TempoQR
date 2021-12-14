@@ -1,5 +1,6 @@
 # TempoQR
 This is the code for the manuscript "TempoQR: Temporal Question Reasoning over Knowledge Graphs" (AAAI2022).
+Paper: https://arxiv.org/abs/2112.05785
 
 ## Installation
 
@@ -17,10 +18,8 @@ which python
 ```
 If this is not the case, try replacing ``python`` with ``python3``. If that works, replace ``python`` with ``python3`` in all commands below.
  -->
-The implementation is based on CronKGQA in [Question Answering over Temporal Knowledge Graphs](https://arxiv.org/abs/2106.01515) and their code from https://github.com/apoorvumang/CronKGQA.
-
-We use TComplEx KG Embeddings as proposed in [Tensor Decompositions for temporal knowledge base completion](https://arxiv.org/abs/2004.04926). We use a slightly modified version of their code from https://github.com/facebookresearch/tkbc,
-as in CronKGQA
+The implementation is based on CronKGQA in [Question Answering over Temporal Knowledge Graphs](https://arxiv.org/abs/2106.01515) and their code from https://github.com/apoorvumang/CronKGQA. You can find more installation details there.
+We use TComplEx KG Embeddings as implemented in https://github.com/facebookresearch/tkbc.
 
 Install TempoQR requirements
 ```
@@ -51,4 +50,18 @@ To evaluate on unseen complex questions change to "--test test_bef_and_aft" or "
 Please explore more argument options in train_qa_model.py.
 
 Minor Note: Not all modules have been tested after the code merging.
+
+## Cite
+
+If you find our method, code, or experimental setups useful, please cite our paper:
+```
+@misc{mavromatis2021tempoqr,
+      title={TempoQR: Temporal Question Reasoning over Knowledge Graphs}, 
+      author={Costas Mavromatis and Prasanna Lakkur Subramanyam and Vassilis N. Ioannidis and Soji Adeshina and Phillip R. Howard and Tetiana Grinberg and Nagib Hakim and George Karypis},
+      year={2021},
+      eprint={2112.05785},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
