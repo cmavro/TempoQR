@@ -2,6 +2,8 @@
 This is the code for the manuscript "TempoQR: Temporal Question Reasoning over Knowledge Graphs" (AAAI2022).
 Paper: https://arxiv.org/abs/2112.05785
 
+![image](https://user-images.githubusercontent.com/43810712/151389025-c783018e-b5cb-4585-bd24-a6cb9d015f9f.png)
+
 ## Installation
 
 Clone and create a conda environment
