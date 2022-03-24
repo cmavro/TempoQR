@@ -2,6 +2,8 @@
 This is the code for the manuscript "TempoQR: Temporal Question Reasoning over Knowledge Graphs" (AAAI2022).
 Paper: https://arxiv.org/abs/2112.05785
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tempoqr-temporal-question-reasoning-over/question-answering-on-cronquestions)](https://paperswithcode.com/sota/question-answering-on-cronquestions?p=tempoqr-temporal-question-reasoning-over)
+
 ![image](https://user-images.githubusercontent.com/43810712/151389025-c783018e-b5cb-4585-bd24-a6cb9d015f9f.png)
 
 ## Installation
